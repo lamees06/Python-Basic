@@ -1,0 +1,9 @@
+p=int(input("Enter principal amount: " ))
+n=int(input("Enter years: " ))
+r=float(input("Enter interest: " ))
+t=int(input("Enter terms: " ))
+si=(p*n*r)/100
+print "Simple interest= ",si
+amount = p*(1+(r/(100*t)))**(t*n)
+ci= amount - p
+print "Compound interest= ",ci
